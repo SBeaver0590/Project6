@@ -1,0 +1,29 @@
+{
+  "name": "project6",
+  "version": "1.0.0",
+  "description": "In this project i'll be creating a portfolio a portfolio site to showcase my treeshouse projects. I'll create a JSON file to store all my project data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SBeaver0590/Project6.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "pug"
+  ],
+  "author": "Simone Beaver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SBeaver0590/Project6/issues"
+  },
+  "homepage": "https://github.com/SBeaver0590/Project6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.4"
+  }
+}
