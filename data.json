@@ -1,7 +1,7 @@
 {"projects":
     [
         {"id":""
-        "project_name":"",
+        "project_name":"0",
         "decription":"",
         "technologies":[
             "html",
@@ -12,7 +12,7 @@
         "image_urls":[]
     },
     {"id":""
-        "project_name":"",
+        "project_name":"1",
         "decription":"",
         "technologies":[
             "html",
@@ -23,7 +23,7 @@
         "image_urls":[]
     },
     {"id":""
-        "project_name":"",
+        "project_name":"2",
         "decription":"",
         "technologies":[
             "html",
@@ -34,7 +34,7 @@
         "image_urls":[]
     },
     {"id":""
-        "project_name":"",
+        "project_name":"3",
         "decription":"",
         "technologies":[
             "html",
@@ -45,7 +45,7 @@
         "image_urls":[]
     },
     {"id":""
-        "project_name":"",
+        "project_name":"4",
         "decription":"",
         "technologies":[
             "html",
