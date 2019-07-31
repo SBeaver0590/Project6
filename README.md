@@ -14,4 +14,4 @@ handle errors, and set up a server to handle the project.
 ##Extra Credit
  -css changes
  -Custom package.json file
- -Error Handlerss
+ -Error Handlers
