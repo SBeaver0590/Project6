@@ -2,7 +2,7 @@
     [
         {"id":""
         "project_name":"0",
-        "decription":"",
+        "decription":"This project was a random quote generator, where a random quote printed to the screen in time intervals.",
         "technologies":[
             "html",
             "css",
@@ -13,7 +13,7 @@
     },
     {"id":""
         "project_name":"1",
-        "decription":"",
+        "decription":"This project involved list filtering and pagination",
         "technologies":[
             "html",
             "css",
@@ -24,9 +24,10 @@
     },
     {"id":""
         "project_name":"2",
-        "decription":"",
+        "decription":"Project three allows you to fill out a registration form, select a t-shirt theme and choose a form of payment.",
         "technologies":[
             "html",
+            "jQuery",
             "css",
             "javascript"],
         "live_link":"https://sbeaver0590.github.io/Project_3/",
@@ -35,10 +36,11 @@
     },
     {"id":""
         "project_name":"3",
-        "decription":"",
+        "decription":"My project is a browser based, word-guessing game. In my game the words you are trying to guess match a hidden phrase. The player guesses those letters using an onscreen keyboard.",
         "technologies":[
             "html",
             "css",
+            "readMe",
             "javascript"],
         "live_link":"https://sbeaver0590.github.io/Project_4/",
         "github_link":"https://github.com/SBeaver0590/Project_4",
@@ -46,9 +48,11 @@
     },
     {"id":""
         "project_name":"4",
-        "decription":"",
+        "decription":"This Project is gathering employee information from a random employee directory. I requested a JSON object and parsed through it in order to display image, name, address ,etc per employee. ",
         "technologies":[
             "html",
+            "mockups",
+            "jQuery CDN",
             "css",
             "javascript"],
         "live_link":"https://sbeaver0590.github.io/Project-5-Public-API-Requests/",
