@@ -10,7 +10,11 @@
 			],
 			"live_link": "https://sbeaver0590.github.io/Project-1/",
 			"github_link": "https://github.com/SBeaver0590/Project-1",
-			"image_urls": []
+			"image_urls": ["/static/images/project1.PNG",
+				"/static/images/project1-2.PNG",
+				"/static/images/project1-3.PNG",
+				"/static/images/project1-4.PNG"
+			]
 		},
 		{
 			"id": "1",
@@ -23,7 +27,11 @@
 			],
 			"live_link": "https://sbeaver0590.github.io/Project-2/",
 			"github_link": "https://github.com/SBeaver0590/Project-2",
-			"image_urls": []
+			"image_urls": ["/static/images/project2.PNG",
+				"/static/images/project2-2.PNG",
+				"/static/images/project2-3.PNG",
+				"/static/images/project2-4.PNG"
+			]
 		},
 		{
 			"id": "2",
@@ -37,7 +45,11 @@
 			],
 			"live_link": "https://sbeaver0590.github.io/Project_3/",
 			"github_link": "https://github.com/SBeaver0590/Project_3",
-			"image_urls": []
+			"image_urls": ["/static/images/project3.PNG",
+				"/static/images/project3-2.PNG",
+				"/static/images/project3-3.PNG",
+				"/static/images/project3-4.PNG"
+			]
 		},
 		{
 			"id": "3",
@@ -51,7 +63,11 @@
 			],
 			"live_link": "https://sbeaver0590.github.io/Project_4/",
 			"github_link": "https://github.com/SBeaver0590/Project_4",
-			"image_urls": []
+			"image_urls": ["/static/images/project4.PNG",
+				"/static/images/project4-2.PNG",
+				"/static/images/project4-3.PNG",
+				"/static/images/project4-4.PNG"
+			]
 		},
 		{
 			"id": "4",
@@ -66,7 +82,11 @@
 			],
 			"live_link": "https://sbeaver0590.github.io/Project-5-Public-API-Requests/",
 			"github_link": "https://github.com/SBeaver0590/Project-5-Public-API-Requests",
-			"image_urls": []
+			"image_urls": ["/static/images/project5.PNG",
+				"/static/images/project5-2.PNG",
+				"/static/images/project5-3.PNG",
+				"/static/images/project5-4.PNG"
+			]
 		}
 	]
 }

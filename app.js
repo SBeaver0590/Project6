@@ -8,13 +8,13 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
 
-app.use(express.static(path.join('public')));
+app.use('/static', express.static('public'));
 
 app.get('/', function (req, res) {
   res.render('index', {projects: data.projects})
 })
 
-console.log(data);
+// console.log(data);
 
 app.get('/about', function (req, res) {
   res.render('about')
@@ -26,15 +26,13 @@ app.get('/about', function (req, res) {
 
 
 app.get('/project/:id', function (req, res, next) {
-  const pro = parseInt(req.params.id);
-  const project = projects[pro];
-
-  if(Number.isInteger(pro) && pro < projects.length && pro >= 0){
-  return res.render('project', {project});
-  }else{
-    let err = new Error("This project doesn't exist");
-    next(err);
-  }
+  res.render('project', 
+   {
+    project_name: data.projects [req.params.id].project_name,
+    description: data.projects [req.params.id].description,
+    technologies: data.projects [req.params.id].technologies,
+    image_urls : data.projects [req.params.id].imageurl
+  });
 }); 
 
 
