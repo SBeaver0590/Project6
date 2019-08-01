@@ -4,6 +4,7 @@ const pug = require('pug');
 const data= require('./data.json');
 const path= require('path');
 
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug')
 
 
@@ -13,6 +14,7 @@ app.get('/', function (req, res) {
   res.render('index', {projects: data.projects})
 })
 
+console.log(data);
 
 app.get('/about', function (req, res) {
   res.render('about')
