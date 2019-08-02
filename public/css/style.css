@@ -31,11 +31,12 @@ h1,h2,h3,h4,h5,p{
 }
 
 .button{
-  background-color: #333;
+  background-color: rgb(26, 5, 34);
 }
 
 .button:hover{
   background-color: #111;
+  border-radius: 50%;
 }
 
 a{
