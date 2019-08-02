@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: rgb(160, 93, 93);
   }
 
 .round{
@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 a{
-  color: #333;
+  color: rgb(56, 35, 35);
 }
 
 a:hover{
@@ -51,7 +51,7 @@ a:hover{
   max-width: 100%;
   margin-bottom: 1rem;
   border: solid 4px #fefefe;
-  border-radius: 0;
+  border-radius: 30px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
@@ -79,7 +79,7 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: rgb(80, 13, 13);
   }
 
 .portfolio-breadcrumb{
@@ -117,7 +117,7 @@ a:hover{
   }
 
   .portfolio-index a{
-    color: #222;
+    color: rgb(47, 11, 11);
   }
 
   .portfolio-index .cell{
