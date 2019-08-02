@@ -1,5 +1,5 @@
 {
-	"projects": [{
+	"projects": [{ 
 			"id": "0",
 			"project_name": "Random Quote Generator",
 			"decription": "This project was a random quote generator, where a random quote printed to the screen in time intervals.",

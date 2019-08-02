@@ -35,26 +35,39 @@ app.get('/project/:id', function (req, res, next) {
   });
 });
 
+//The static folder is set to the public
 app.use('/static', express.static(path.join(__dirname, 'public')));
-
+//The images folder is set to the public
 app.use('/imagess', express.static(path.join(__dirname, '/images/')));
 
 
-
-// console.log(data);
-
+//Sets index route for app
 app.get('/index', function (req, res) {
   res.render('index', {projects: data.projects});
 })
 
+//Sets the project route for the app
 app.get('/project', function(req, res) {
   let projectIndex = req.query.id;
   res.render('project', {project: data.projects[projectIndex]});
 });
 
- 
+// Error handling middleware to utilize static
+app.use(function (req, res, next) {
+  const err = new Error('Server error: Sorry your requested page can not be found.');
+  err.status = 404;
+  next(err);
+});
 
+//Handle errors in the app
+app.use(function (err, req, res,next) {
+  res.locals.error = err;
+  res.render('error', { error: err});
+  console.log("Server error: Sorry your requested page can not be found.")
 
+})
+
+// Server listens for the app
 app.listen(3000, ()=>{
   console.log('running on port 3000')
 })
